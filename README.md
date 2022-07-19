@@ -6,21 +6,22 @@
 
 2. Create connection between index.html & homepage.js.
 
-3. Set homepage up with the following functions: 
-    - formSubmitHandler (will submit the users querry for a specific city).
-    - getUserCity (will fetch the users querried city using the openWeather api)
-    - displayWeather (will display the weather of the city selected). 
+3. Set homepage up with variables.  
 
 4. Test for bugs  
 
 ## Tasks 
-- [ ] Create HTML 
+- [x] Create HTML 
     - [x] Create form and button 
     - [x] Connect HTML to homepage.js 
-    - [ ] Create two collumns 
+    - [x] Create two collumns 
 
-- [ ] Create homepage.js 
-    - [ ] formSubmitHandler (will submit the users querry for a specific city).
-    - [ ] getUserCity (will fetch the users querried city using the openWeather api)    
-    - [ ] displayWeather (will display the weather of the city selected).
+- [x] Create homepage.js 
+
+## Notes
+
+- Currently only shows weather for current day. No css added. 
+
+
+   
 
