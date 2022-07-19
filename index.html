@@ -3,39 +3,48 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta city="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
   <link rel="stylesheet" href="./assets/css/style.css" />
   <title>WEATHER DASHBOARD</title>
 </head>
 
-<body class="flex-column min-100-vh">
+<body>
 
     <header class="hero">
         <h1 align="center">WEATHER DASHBOARD</h1>
     </header> 
 
-<main class="flex-row justify-space-between">
+<div class="columns">
 
-<!-- Left col -->
-<div class="col-12 col-md-4">
-<!-- INSERT SEARCH FORM -->
-<form id="city_form"> 
-    <h2> Search for a City: </h2>
-    <input name="city" id="city" type="text" autofocus="true"/> 
-    <button type="search"> Search </button>
-</form>
+    <!-- Left col -->
+    <div class="column">
+    <!-- INSERT SEARCH FORM -->
+    <div class="input">
+        <input type="text" placeholder="Enter the city" class="input_city">
+        <input type="submit" value="Submit" class="submit">
+    </div>
+
+    </div>
+
+    <!-- Right col-->
+    <div class="column">
+    <!-- INSERT DISPLAY -->
+    <h2> Showing Weather </h2>
+    <div class="container">
+        <div class="card">
+        <h1 class="name" id="name"></h1>
+        <p class="temp"></p>
+        <p class="clouds"></p>
+        <p class="desc"></p>
+        </div>
+
+    </div>
+    </div>
 
 </div>
 
-<!-- Right col-->
-<div class="col-12 col-md-8"></div>
-<!-- INSERT DISPLAY -->
-<h2> Showing Weather </h2>
-
-
-
-</main>
 
 <!-- Connection to homepage js-->
 <script src="./assets/js/homepage.js"></script>

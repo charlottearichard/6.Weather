@@ -1,0 +1,19 @@
+{
+  "name": "6.weather",
+  "version": "1.0.0",
+  "description": "Weather Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlottearichard/6.Weather.git"
+  },
+  "author": "Charlotte Ri'Chard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlottearichard/6.Weather/issues"
+  },
+  "homepage": "https://github.com/charlottearichard/6.Weather#readme"
+}

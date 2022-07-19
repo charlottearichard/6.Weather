@@ -15,8 +15,9 @@
 
 ## Tasks 
 - [ ] Create HTML 
-    - [ ] Create form and button 
-    - [ ] Connect HTML to homepage.js 
+    - [x] Create form and button 
+    - [x] Connect HTML to homepage.js 
+    - [ ] Create two collumns 
 
 - [ ] Create homepage.js 
     - [ ] formSubmitHandler (will submit the users querry for a specific city).
